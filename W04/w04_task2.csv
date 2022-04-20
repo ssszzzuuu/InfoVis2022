@@ -1,4 +1,4 @@
-width,color
-100,red
-50,blue
-80,black
+x,y,width,color
+10,10,100,red
+10,40,50,blue
+10,70,80,black
