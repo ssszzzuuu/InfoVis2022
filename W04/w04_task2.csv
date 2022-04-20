@@ -1,4 +1,4 @@
 x,y,width,height,color,label
-10,10,100,10,red,"label1"
-10,40,50,10,blue,"label2"
-10,70,80,10,black,"label3"
+10,10,100,15,red,"label1"
+10,40,50,15,blue,"label2"
+10,70,80,15,black,"label3"
