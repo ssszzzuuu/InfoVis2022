@@ -66,7 +66,7 @@ class ScatterPlot {
             .attr("y", 0)
             .attr("text-anchor", "middle")
             .attr("font-size", "15pt")
-            .text("Title")
+            .text("distance")
         
         self.xlabel = self.chart.append('g')
             .append("text")
@@ -74,7 +74,7 @@ class ScatterPlot {
             .attr("y", self.config.height - self.config.margin.top)
             .attr("text-anchor", "middle")
             .attr("font-size", "10pt")
-            .text("X-label");
+            .text("meter");
 
         self.ylabel = self.chart.append('g')
             .attr("transform", "translate("+self.config.margin.left+","+0+")")
@@ -84,7 +84,7 @@ class ScatterPlot {
             .attr("text-anchor", "middle")
             .attr("font-size", "10pt")
             .attr("transform", "rotate(-90)")
-            .text("Y-label");
+            .text("time");
     }
 
     update() {
