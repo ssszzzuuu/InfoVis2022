@@ -27,7 +27,7 @@ class BarchartPlot {
             parent: config.parent,
             width: config.width || 256,
             height: config.height || 256,
-            margin: config.margin || {top:10, right:10, bottom:10, left:10},
+            margin: config.margin || {top:10, right:10, bottom:10, left:20},
             xticks: config.xticks || 10,
             yticks: config.yticks || 10,
             xticks: config.xticks || '',
