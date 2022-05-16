@@ -14,7 +14,7 @@ d3.csv("https://ssszzzuuu.github.io/InfoVis2022/W08/task2_data.csv")
         };
 
         let linechart_plot = new LinechartPlot( config, data );
-        linehart_plot.update();
+        linechart_plot.update();
     })
     .catch( error => {
         console.log( error );
