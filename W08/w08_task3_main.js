@@ -28,7 +28,7 @@ class PiechartPlot {
             parent: config.parent,
             width: config.width || 256,
             height: config.height || 256,
-            margin: config.margin || {top:10, right:10, bottom:10, left:10},
+            margin: config.margin || {top:10, right:10, bottom:10, left:20},
             title: config.title || '',
             radius: config.radius || 100,
 
@@ -47,7 +47,7 @@ class PiechartPlot {
             .attr('height', self.config.height);
 
         self.chart = self.svg.append('g')
-            .attr('transform', `translate(${self.config.margin.left}, ${self.config.margin.top})`);
+            .attr('transform', `translate(${self.config.width / 2}, ${self.config.height / 2})`);
 
         self.pie = d3.pie()
             .value(d => d.value);
@@ -57,7 +57,7 @@ class PiechartPlot {
             .outerRadius(self.config.radius);
 
         self.color = d3.scaleOrdinal()
-            .range(["blue", "red", "green", "yellow", "pink"]);  
+            .range(["black", "blue", "red", "green", "yellow"]);  
     
     }
 
