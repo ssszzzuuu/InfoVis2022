@@ -1,4 +1,4 @@
-都道府県,議員定数,人口,議員あたり人口,議員あたり１票の格差,有権者数,議員あたり有権者数,有権者あたり１票の格差,議員あたり面積,面積あたり１票の格差
+Prefecture,Member,Population,PopulationPerMember,DisparityPerMember,Voter,VoterPerMember,DisparityPerVoter,AreaPerMember,DisparityPerArea
 北海道,１２,5441628,453469,1.568,4588284,382357,1.583,6535.08,74.647
 青森県,4,1346749,336687,1.164,1147568,286892,1.188,2411.18,27.542
 岩手県,4,1299138,324785,1.123,1091013,272753,1.130,3819.72,43.631
